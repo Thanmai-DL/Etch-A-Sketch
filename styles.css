@@ -1,0 +1,26 @@
+#container {
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box {
+    width: 500px;
+    height: 500px;
+    border: solid black 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#grid {
+    display: flex;
+    flex-grow: 1;
+}
+
+#grid-element {
+    display: flex;
+    flex-grow: 1;
+}
